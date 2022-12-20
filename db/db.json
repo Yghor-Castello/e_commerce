@@ -79,37 +79,26 @@
   ],
   "burgers": [
     {
-      "nome": "Yghor",
-      "carne": "Maminha",
-      "pao": "Italiano Branco",
-      "opcionais": [
-        "Bacon",
-        "Pepino"
-      ],
-      "status": "Solicitado",
-      "id": 1
-    },
-    {
-      "nome": "Bernardo Felisberto",
-      "carne": "Veggie burger",
+      "nome": "Patricia",
+      "carne": "Picanha",
       "pao": "3 Queijos",
       "opcionais": [
         "Bacon",
         "Salame"
       ],
       "status": "Solicitado",
-      "id": 4
+      "id": 2
     },
     {
       "nome": "Ceci",
-      "carne": "Maminha",
-      "pao": "3 Queijos",
+      "carne": "Alcatra",
+      "pao": "Italiano Branco",
       "opcionais": [
         "Bacon",
         "Salame"
       ],
       "status": "Solicitado",
-      "id": 5
+      "id": 3
     }
   ]
 }

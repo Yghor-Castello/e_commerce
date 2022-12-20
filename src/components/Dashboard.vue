@@ -68,9 +68,9 @@
         },
         async updateBurger(event, id) {
           const option = event.target.value;
-          const dataJson = JSON.stringify({status: option});
-          const req = await fetch(`http://localhost:3000/burgers/${id}`, {
-            method: "PATCH",
+          const dataJson = JSON.stringify({status: option}); //TRANSFORMANDO PARA STRING PARA INCLUIR NO BANCO DE DADOS
+          const req = await fetch(`http://localhost:3000/burgers/${id}`, { //ACESSANDO PELO ID E ATUALIZANDO OS STATUS
+            method: "PATCH", //ATUALIZAÇÃO APENAS PELO STATUS
             headers: { "Content-Type" : "application/json" },
             body: dataJson
           });
