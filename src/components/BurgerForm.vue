@@ -76,9 +76,12 @@
         });
         const res = await req.json()
         console.log(res)
+
+        //COLOCAR UMA MENSAGEM DE SISTEMA
         this.msg = "Pedido realizado com sucesso!"
-        // clear message
+        // LIMPAR MENSAGENS 
         setTimeout(() => this.msg = "", 3000)
+        
         // limpar campos
         this.nome = ""
         this.carne = ""
